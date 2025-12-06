@@ -23,6 +23,9 @@ body{
   max-width: var(--max);
   display: grid;
   gap: var(--gap);
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
 }
 
 header {
