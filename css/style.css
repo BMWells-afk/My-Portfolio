@@ -92,10 +92,12 @@ main {
 
 .thumb {
   height: 80px;
+  width: 100%;
   background: #e0e7ff;
   display: grid;
   place-items: center;
   border-radius: 4px;
+  object-fit: cover;
 }
 .link {
   margin-top: auto;
