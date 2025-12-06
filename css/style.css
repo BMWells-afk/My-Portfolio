@@ -20,9 +20,10 @@ body{
 /* Grid layout for the whole page */
 .container {
   width: 100%;
-  max-width: var(--max);
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
-  gap: var(--gap);
+  gap: 8px;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   min-height: 100vh;
@@ -186,7 +187,7 @@ footer {
 }
 
 
-/* Resume buttton effects */
+/* Resume buttton effects
 .btn-resume {
   background-color: transparent;
   color: #9b59b6;
@@ -215,7 +216,7 @@ footer {
 
 .btn-resume:hover {
   color: white;
-}
+} */
 
 
 
@@ -238,6 +239,10 @@ footer {
     border-radius: 10px;
     font-size: 16px;
     padding: 12px 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 
