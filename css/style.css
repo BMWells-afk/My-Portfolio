@@ -527,13 +527,13 @@ footer {
   }
 
   .name {
-    font-size: 3em;
+    font-size: 4em;
     max-width: 100%; /* Ensure it doesn't exceed container */
   }
   .title {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .projects h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 }
