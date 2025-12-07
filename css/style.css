@@ -135,7 +135,6 @@ main {
   display: flex;
   justify-content: center;
   font-size: 2em;
-  font-weight: bold;
   background: var(--card);
   color: #d67dca;
   animation: neon-flicker 2s ease-in-out infinite;
