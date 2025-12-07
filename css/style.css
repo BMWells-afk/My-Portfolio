@@ -87,8 +87,8 @@ h1 {
       linear-gradient(
         45deg,
         transparent 45%,
-        hsla(48,20%,90%,1) 45%,
-        hsla(48,20%,90%,1) 55%,
+        hsla(230,40%,50%,1) 45%,
+        hsla(230,40%,50%,1) 55%,
         transparent 0
         );
     background-size: .05em .05em;
@@ -128,7 +128,6 @@ main {
 .projects h2 {
   width: 100%;
   text-align: center;
-  margin-bottom: 8px;
   margin-top: 0;
   background: var(--card);
   padding: 8px 16px;
