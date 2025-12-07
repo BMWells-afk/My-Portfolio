@@ -3,7 +3,7 @@
   --neutral:#f5f7fb;
   --pink:#d67dca;
   --purple:#8466bd;
-  --card: rgb(216, 206, 216);
+  --card: rgb(59, 58, 59);
   --accent: #000000;
 
 }
@@ -87,8 +87,8 @@ h1 {
       linear-gradient(
         45deg,
         transparent 45%,
-        rgb(82, 81, 81) 45%,
-        rgb(82, 81, 81) 55%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
         transparent 0
         );
     background-size: .05em .05em;
