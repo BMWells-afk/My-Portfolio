@@ -12,7 +12,7 @@
 
 body{
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
-  margin:20px;
+  margin: 20px 0; /* Only top/bottom margin */
   background:var(--neutral);
   color:#111;
 }
@@ -67,7 +67,7 @@ nav a {
 /* Main layout- 2 column grid */
 main {
   display: grid;
-  grid-template-columns: 1fr 240px;
+  grid-template-columns: 240px 1fr; /* Swap: sidebar first, then projects */
   gap: var(--gap);
 }
 
