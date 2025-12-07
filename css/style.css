@@ -1,8 +1,8 @@
 :root{
-  --gap:12px;
+  --gap:10px;
   --neutral:#f5f7fb;
-  --green:#7dd691;
-  --red:#bd6666;
+  --pink:#d67dca;
+  --purple:#8466bd;
   --card: rgb(216, 206, 216);
   --accent: #000000;
 
@@ -86,12 +86,12 @@ main {
   gap: 8px;
 }
 .card:hover { 
-  background: var(--red); 
+  background: var(--pink); 
 } 
 
 /* nth-child psuedo-class for styling every other card different */
 .card:hover:nth-child(odd) { 
-  background: var(--green); 
+  background: var(--purple); 
 } 
 
 .thumb {
@@ -188,6 +188,7 @@ footer {
   border-radius: 6px;
   margin-top: 8px;
   font-weight: bold;
+  text-align: center;
 }
 
 
