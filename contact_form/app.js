@@ -10,7 +10,7 @@ form.addEventListener("submit", function(event) {
     errorMessages.textContent = "";
     output.textContent = ""; // Clear previous success messages
         
-    // get values and validate ;
+    // get values and validate
     const email = document.getElementById("email");
     const message = document.getElementById("message");
     
@@ -29,7 +29,7 @@ form.addEventListener("submit", function(event) {
 
     // Show success message
     alert("Email submitted! Thank you for your message.");
-    output.textContent = `Thank you, ${nameValue}! Your message has been received.`;
+    output.textContent = "Thank you! Your message has been sent.";
     
     // Clear form
     form.reset();
