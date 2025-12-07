@@ -197,7 +197,9 @@ aside {
   flex-wrap: wrap;
   gap: 10px;
   order: -1;
-  
+  align-self: start; /* Prevents stretching to full height */
+  position: sticky; /* keeps sidebar visible while scrolling */
+  top: 10px; /* Offset from top when sticky */
 }
 
 /* profile photo styling to be round avatar */
