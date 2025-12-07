@@ -144,17 +144,17 @@ main {
 @keyframes neon-flicker {
   0%, 100% { 
     text-shadow: 
-      0 0 10px #d67dca,
-      0 0 20px #d67dca,
-      0 0 30px #d67dca,
-      0 0 40px #8466bd;
-  }
-  50% { 
-    text-shadow: 
       0 0 5px #d67dca,
       0 0 10px #d67dca,
       0 0 15px #d67dca,
       0 0 20px #8466bd;
+  }
+  50% { 
+    text-shadow: 
+      0 0 3px #d67dca,
+      0 0 5px #d67dca,
+      0 0 8px #d67dca,
+      0 0 10px #8466bd;
   }
 }
 
