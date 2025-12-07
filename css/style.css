@@ -425,3 +425,44 @@ footer {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr; /* Stack sidebar on top */
+  }
+  
+  aside {
+    order: 0; /* Reset order for mobile */
+    position: static; /* Remove sticky on mobile */
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller cards on mobile */
+  }
+  
+  .thumb {
+    height: 250px; /* Reduce image height on mobile */
+  }
+  
+  .avatar {
+    width: 50%; /* Smaller avatar on mobile */
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr; /* Single column on small phones */
+  }
+  
+  header {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .name {
+    font-size: 24px; /* Smaller name on mobile */
+  }
+}
