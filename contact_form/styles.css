@@ -1,65 +1,138 @@
-/* Contact Form Styling */
-form {
-  max-width: 400px;
-  margin: 30px auto;
+/* Overall page styling */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #f5f7fb;
+  margin: 0;
   padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-form label {
-  display: block;
+/* Page title */
+h1 {
+  color: #4b0082;
+  text-align: center;
   margin-bottom: 10px;
-  font-weight: bold;
-  color: #4b0082; 
+  font-size: 2em;
 }
 
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 6px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  transition: border-color 0.3s ease;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: #ff80d0; 
-  outline: none;
-}
-
-form textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-form button {
-  width: 100%;
-  padding: 12px;
-  background: #ff80d0;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  color: #fff;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-form button:hover {
-  background: #ff4da6;
-  transform: scale(1.03);
-}
-
+/* Back link */
 .back-link {
   display: inline-block;
   margin-bottom: 20px;
   color: #4b0082;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #d67dca;
+}
+
+/* Contact Form Container */
+form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgb(224, 210, 224);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Form labels */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Input fields and textarea */
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #d67dca;
+  outline: none;
+  box-shadow: 0 0 8px rgba(214, 125, 202, 0.3);
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Submit button */
+button[type=submit] {
+  width: 100%;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #d67dca, #8466bd);
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+}
+
+button[type=submit]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(214, 125, 202, 0.4);
+}
+
+button[type=submit]:active {
+  transform: translateY(0);
+}
+
+/* Error messages */
+#error-messages {
+  margin-top: 15px;
+  padding: 12px;
+  background: #ffe6e6;
+  border-left: 4px solid #d31616;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #d31616;
+}
+
+/* Success message */
+#output {
+  margin-top: 15px;
+  padding: 12px;
+  background: #e6f7e6;
+  border-left: 4px solid #018813;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #018813;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
 }
