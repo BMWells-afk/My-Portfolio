@@ -132,6 +132,8 @@ main {
   background: var(--card);
   padding: 8px 16px;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
 }
 
 .projects-grid {
