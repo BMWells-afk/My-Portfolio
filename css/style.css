@@ -27,6 +27,7 @@ body{
   grid-template-columns: 1fr;
   min-height: 100vh;
   padding: 0 10px;
+  font-family:'Courier New', Courier, monospace
 }
 
 header {
