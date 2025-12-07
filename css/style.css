@@ -173,6 +173,7 @@ main {
   margin-top: auto;
   color: var(--accent);
   text-decoration: none;
+  text-align: bottom center;
 }
 
 /* hover effect for links - pseudo-class */
