@@ -55,3 +55,11 @@ form button:hover {
   background: #ff4da6;
   transform: scale(1.03);
 }
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #4b0082;
+  text-decoration: none;
+  font-weight: bold;
+}
