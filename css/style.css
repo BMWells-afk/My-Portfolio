@@ -454,6 +454,7 @@ footer {
   }
   
   aside {
+    order: 0;
     position: static; /* Disable sticky on mobile */
   }
   
@@ -489,4 +490,7 @@ footer {
     gap: 8px;
   }
   
+  .name {
+    font-size: 1.2em;
+  }
 }
