@@ -1,0 +1,57 @@
+/* Contact Form Styling */
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  font-family: Arial, sans-serif;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #4b0082; 
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ff80d0; 
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #ff80d0;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background: #ff4da6;
+  transform: scale(1.03);
+}
