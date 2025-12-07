@@ -457,6 +457,11 @@ footer {
     position: static; /* Disable sticky on mobile */
   }
   
+  .contact-me {
+    display: flex;
+    justify-content: center; /* Center the button container */
+  }
+  
   .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller cards on mobile */
   }
@@ -468,6 +473,9 @@ footer {
   .avatar {
     width: 50%; /* Smaller avatar on mobile */
     margin: 0 auto;
+  }
+  .footer p {
+    text-align: center;
   }
 }
 
