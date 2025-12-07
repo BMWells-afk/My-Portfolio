@@ -277,6 +277,7 @@ footer {
   border-radius: 6px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 
@@ -332,13 +333,8 @@ footer {
 
 
 
-
-
-
-
-
-/* testing glowing button effect */
-.glow-on-hover {
+/* glowing contact me button */
+.contact-btn {
     width: 220px;
     height: 50px;
     border: none;
@@ -358,7 +354,7 @@ footer {
 }
 
 
-.glow-on-hover:before {
+.contact-btn:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -375,19 +371,19 @@ footer {
     border-radius: 10px;
 }
 
-.glow-on-hover:active {
+.contact-btn:active {
     color: #000
 }
 
-.glow-on-hover:active:after {
+.contact-btn:active:after {
     background: transparent;
 }
 
-.glow-on-hover:hover:before {
+.contact-btn:hover:before {
     opacity: 1;
 }
 
-.glow-on-hover:after {
+.contact-btn:after {
     z-index: -1;
     content: '';
     position: absolute;
