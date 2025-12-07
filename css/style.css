@@ -138,17 +138,24 @@ main {
   font-weight: bold;
   background: var(--card);
   color: #d67dca;
-  text-shadow: 
-    0 0 10px #d67dca,
-    0 0 20px #d67dca,
-    0 0 30px #d67dca,
-    0 0 40px #8466bd;
   animation: neon-flicker 2s ease-in-out infinite;
 }
 
 @keyframes neon-flicker {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.8; }
+  0%, 100% { 
+    text-shadow: 
+      0 0 10px #d67dca,
+      0 0 20px #d67dca,
+      0 0 30px #d67dca,
+      0 0 40px #8466bd;
+  }
+  50% { 
+    text-shadow: 
+      0 0 5px #d67dca,
+      0 0 10px #d67dca,
+      0 0 15px #d67dca,
+      0 0 20px #8466bd;
+  }
 }
 
 .projects-grid {
