@@ -510,7 +510,7 @@ footer {
     margin: 0 auto;
   }
 
-  .footer p {
+  footer p {
     text-align: center;
   }
 }
@@ -527,10 +527,13 @@ footer {
   }
 
   .name {
-    font-size: 2em;
+    font-size: 3em;
     max-width: 100%; /* Ensure it doesn't exceed container */
   }
   .title {
-    font-size: 0.9em;
+    font-size: 1em;
+  }
+  .projects h2 {
+    font-size: 1.2em;
   }
 }
