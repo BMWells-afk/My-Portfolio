@@ -134,7 +134,7 @@ main {
   border-radius: 8px;
   display: flex;
   justify-content: center;
-  font-size: 2em;
+  font-size: 1.5em;
   background: var(--card);
   color: #d67dca;
   animation: neon-flicker 2s ease-in-out infinite;
@@ -145,8 +145,8 @@ main {
     text-shadow: 
       0 0 5px #d67dca,
       0 0 10px #d67dca,
-      0 0 15px #d67dca,
-      0 0 20px #8466bd;
+      0 0 12px #d67dca,
+      0 0 17px #8466bd;
   }
   50% { 
     text-shadow: 
@@ -454,8 +454,7 @@ footer {
   }
   
   aside {
-    order: 0; /* Reset order for mobile */
-    position: static; /* Remove sticky on mobile */
+    position: static; /* Disable sticky on mobile */
   }
   
   .projects-grid {
@@ -482,7 +481,4 @@ footer {
     gap: 8px;
   }
   
-  .name {
-    font-size: 24px; /* Smaller name on mobile */
-  }
 }
