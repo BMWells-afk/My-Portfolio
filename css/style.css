@@ -191,20 +191,28 @@ footer {
   background: var(--card);
   padding: 10px;
   border-radius: 6px;
-  margin-top: 8px;
   font-weight: bold;
   text-align: center;
 }
 
+
 /* Social links styling */
+.links {
+  text-align: center; 
+  margin-top: 10px;
+}
+
 .links a {
-  font-size: 32px; /* Adjust size as needed */
+  font-size: 32px; 
   margin: 0 8px;
   transition: transform 0.2s ease;
+  color: var(--accent); 
+  display: inline-block; 
 }
 
 .links a:hover {
-  transform: scale(1.2); /* Optional: grow on hover */
+  transform: scale(1.2);
+  color: var(--pink); 
 }
 
 /* Resume buttton effects
