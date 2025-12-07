@@ -34,7 +34,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: var(--card);
-  padding: 10px;
+  padding: 8px 16px;
   border-radius: 8px;
   position: sticky; /* lock when scrolling */
   top: 0;
@@ -51,7 +51,7 @@ header {
 
 .name {
   font-size: 50px;
-  background: -webkit-linear-gradient(#ca3aca, #4e80cc, rgb(241, 241, 250));
+  background: -webkit-linear-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
   background-clip: text; /* for non-webkit browsers */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -189,7 +189,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   background: var(--card);
-  padding: 10px;
+  padding: 6px 12px;
   border-radius: 6px;
   font-weight: bold;
   text-align: center;
