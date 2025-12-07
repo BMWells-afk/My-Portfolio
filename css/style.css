@@ -3,7 +3,7 @@
   --neutral:#f5f7fb;
   --pink:#d67dca;
   --purple:#8466bd;
-  --card: rgb(59, 58, 59);
+  --card: rgb(224, 210, 224);
   --accent: #000000;
 
 }
@@ -126,6 +126,7 @@ main {
 }
 
 .projects h2 {
+  width: 100%;
   text-align: center;
   margin-bottom: 8px;
   margin-top: 0;
@@ -137,6 +138,7 @@ main {
 }
 
 .projects-grid {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--gap);
