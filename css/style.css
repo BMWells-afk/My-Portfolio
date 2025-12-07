@@ -244,6 +244,7 @@ aside {
 .card .link {
   padding-bottom: 12px;
   margin-top: 8px;
+  text-align: center; 
 }
 
 .contacts a {
