@@ -20,13 +20,13 @@ body{
 /* Grid layout for the whole page */
 .container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   gap: 8px;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   min-height: 100vh;
+  padding: 0 20px;
 }
 
 header {
@@ -191,6 +191,16 @@ footer {
   text-align: center;
 }
 
+/* Social links styling */
+.links a {
+  font-size: 32px; /* Adjust size as needed */
+  margin: 0 8px;
+  transition: transform 0.2s ease;
+}
+
+.links a:hover {
+  transform: scale(1.2); /* Optional: grow on hover */
+}
 
 /* Resume buttton effects
 .btn-resume {
