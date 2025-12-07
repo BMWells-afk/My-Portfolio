@@ -8,16 +8,12 @@ form.addEventListener("submit", function(event) {
     
     // clear prev errors
     errorMessages.textContent = "";
+    output.textContent = ""; // Clear previous success messages
         
-    // get values and validate 
-    const name = document.getElementById("name");
+    // get values and validate ;
     const email = document.getElementById("email");
+    const message = document.getElementById("message");
     
-    const nameValue = name.value.trim();
-    if (nameValue.length < 2 || !/^[A-Za-z]+$/.test(nameValue)) {
-        errorMessages.textContent = "Name must be at least 2 characters and contain only letters.";
-        return false;
-    }
     
     const emailValue = email.value.trim();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
@@ -25,7 +21,16 @@ form.addEventListener("submit", function(event) {
         return false;
     }
 
-    alert("Email submitted! Thank you for your message.");
-    formSubmitted();
-});
+    const messageValue = message.value.trim();
+    if (messageValue.length < 10) {
+        errorMessages.textContent = "Message must be at least 10 characters.";
+        return false;
+    }
 
+    // Show success message
+    alert("Email submitted! Thank you for your message.");
+    output.textContent = `Thank you, ${nameValue}! Your message has been received.`;
+    
+    // Clear form
+    form.reset();
+});
