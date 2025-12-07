@@ -45,7 +45,6 @@ header {
   width: 20%;
   height: auto;
   border-radius: 50%;
-  display: auto;
 }
 
 *, *:before, *:after {
@@ -194,7 +193,6 @@ main {
   margin-top: auto;
   color: var(--accent);
   text-decoration: none;
-  text-align: bottom center;
 }
 
 /* hover effect for links - pseudo-class */
@@ -227,7 +225,6 @@ aside {
   width: 100%;
   height: auto;
   border-radius: 50%;
-  display: auto;
 }
 
 .bio {
