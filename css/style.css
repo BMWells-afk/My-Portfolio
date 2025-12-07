@@ -76,8 +76,7 @@ html, body {
 h1 {
   display: inline-block;
   color: white;
-  font-family: 'Righteous', serif;
-  font-size: 12em; 
+  font-size: 8em; 
   text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
   }
   h1:after {
@@ -114,12 +113,10 @@ nav a {
 
 }
 
-
-
 /* Main layout- 2 column grid */
 main {
   display: grid;
-  grid-template-columns: 240px 1fr; /* Swap: sidebar first, then projects */
+  grid-template-columns: 240px 1fr; 
   gap: var(--gap);
 }
 
@@ -128,15 +125,16 @@ main {
   display: flex;
   flex-direction: column;
   gap: var(--gap);
-  background: var(--card);
-  padding: 8px 16px;
-  border-radius: 8px;
+  align-items: center;
 }
 
 .projects h2 {
   text-align: center;
   margin-bottom: 8px;
   margin-top: 0;
+  background: var(--card);
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 
 .projects-grid {
