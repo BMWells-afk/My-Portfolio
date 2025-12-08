@@ -1,6 +1,7 @@
 /* default styles are for mobile */
 body {
   font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
   text-align: center;
   background: #ffe4f0;
   color: #4b0082;
