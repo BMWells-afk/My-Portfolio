@@ -130,6 +130,7 @@ button[type=submit]:active {
 @media (max-width: 600px) {
   form {
     padding: 20px;
+    width: 80%;
   }
   
   h1 {
