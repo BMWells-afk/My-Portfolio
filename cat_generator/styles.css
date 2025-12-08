@@ -8,10 +8,12 @@ body {
 
 h1 {
   margin-bottom: 20px;
+  font-size: 2em;
 }
 
 img {
   width: 30%;
+  max-width: 400px;
   height: 500px;
   display: block;
   margin: 0 auto;
@@ -44,16 +46,22 @@ button:hover {
 
 /* mobile settings */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
   img {
-    width: 80%;
+    max-width: 90%; /* Larger on mobile */
+    width: 90%;
     height: auto;
   }
 
   button {
-    width: 80%;
-    font-size: 16px;
-    padding: 12px 0;
-    margin: 15px auto;
+    width: 90%;
+    max-width: 300px;
+    font-size: 18px;
+    padding: 14px 0;
+    margin: 20px auto;
     display: block;
   }
 }
