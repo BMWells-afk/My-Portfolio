@@ -433,7 +433,7 @@ footer {
   pointer-events: none;
 }
 
-.contact-btn:active {
+.contact-btn:active { 
   color: #000
 }
 
@@ -524,7 +524,7 @@ footer {
     text-align: center;
   }
 }
-  /* touch effects for hover items */
+  /* touch effects for hover items (:active) */
   .link:active {
     text-decoration: underline;
     text-shadow: 0 0 5px var(--accent);
@@ -558,6 +558,7 @@ footer {
     gap: 8px;
   }
 
+  /* Adjust font sizes to be smaller */  
   .name {
     font-size: 4.5em;
     max-width: 100%; /* Ensure it doesn't exceed container */
