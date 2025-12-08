@@ -557,8 +557,10 @@ footer {
   }
   .title {
     font-size: 1.5em;
+    max-width: 100%;
   }
   .projects h2 {
     font-size: 1.5em;
+    max-width: 100%;
   }
 }
