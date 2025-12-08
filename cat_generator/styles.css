@@ -13,7 +13,8 @@ h1 {
 img {
   width: 30%;
   height: 500px;
-  display: center;
+  display: block;
+  margin: 0 auto;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -52,6 +53,7 @@ button:hover {
     width: 80%;
     font-size: 16px;
     padding: 12px 0;
-    align-items: center;
+    margin: 15px auto;
+    display: block;
   }
 }
