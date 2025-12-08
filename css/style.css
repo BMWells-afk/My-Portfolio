@@ -493,6 +493,10 @@ footer {
     justify-content: center;
     /* Center the button container */
   }
+  
+  .contact-btn:before {
+    opacity: 1; /* Always glow */
+  }
 
   .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
