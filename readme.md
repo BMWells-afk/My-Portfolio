@@ -1,33 +1,44 @@
 # CS601 - Final Project - Portfolio
 
 ## Project Description
-A porfolio page showcasing my projects 
-- I added a custom icon and logo to the page 
-- Has four project cards in a flex grid format, each with a link to the project
-- The My Bakery Inventory app features TypeScript and React
-- There is a drag and drop API app included
-- There is a random cat image generator app that uses images (currently in an array, but would be cool to change to API)
-- There is a fun portfolio page that uses 
-- I added a few psuedo-classes to change the hover of the links and the cards
-- A sidebar showcases my avatar profile photo with a short bio and a Contact Me button that has a nice hover and click effect
-- The Contact Me button opens a page with a form that requires an email and description and provides a success alert once submitted
-- The sidbar also includes three working icons for socials that changes color and size on hover. The icons pull from font-awesome 
-- I added mobile responsiveness to the portfolio site and within the contact form and cat_generator apps
-- Footer displays a copyright symbol with dynamic current year and my name
-- Lots of custumized and expirimental CSS (I would make separate css files in the future to better organize, it became a long sheet)
+A responsive porfolio page showcasing my projects and skills learned during the course
+
+### Key Features
+- **Projects**: Four project cards in a responsive grid layout, each linking to the their pages
+  - My Bakery Inventory App (using TypeScript + React)
+  - Cat and Dog Drag and Drop API App
+  - Random Cat Image Generator (JavaScript with image array)
+  - Fun experimental portfolio page for Rudoplph the Red-Nosed Reindeer
+- **Interactive "Fun" UI Elements**:
+  - Animated project cards with hover effects using CSS pseudo-classes
+  - Shadow animated effect on my name header 
+  - Neon flickering text animation on project header
+  - Glowing rainbow border effect on contact button
+- **Sidebar Profile Section**:
+  - Custum avatar profile photo and page icon
+  - Short bio
+  - "Contact Me" button that links out to the Contact Form
+  - Social media icons (used Font Awesome) with color and scale transitions
+- **Contact Form Page**:
+  - Email and message fields (required)
+  - Success alert message displays when you "Submit" (doesn't actually send/disabled)
+  - Responsive design optimized for mobile devices to help with sizing
+- **Responsive Design**:
+  - Mobile-friendly designs for the portfolio page (I was happily surprised this wasn't too difficult to implement, thought it would be more complex, but really just about screen sizes)
+  - Sticky sidebar on desktop, stacked layout on mobile
+- **Footer**:
+  - Dynamic copyright year using JavaScript
+
+## Future Enhancements
+- Convert cat generator to use an external API so it can be more dynamic
+- Organize CSS into individual files - the main styles.css became quite large
 
 ## How to run this app
-- https://bmwells-afk.github.io/My-Portfolio/
-
-## Project Contents
-- readme.md — this file  
-- index.html
-- css (folder)
-- style.css
-- images (folder)
+- GitHub hosted here: https://bmwells-afk.github.io/My-Portfolio/
 
 ## Author
-- Brittney Wells
+**Brittney Wells**
+- Boston University - CS601 Web Application Development
 
 ## References
 - Course module + Lectures
@@ -35,5 +46,6 @@ A porfolio page showcasing my projects
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - Haverbeke, M. (2024). Eloquent JavaScript: A Modern Introduction to Programming (4th ed.). No Starch Press.
 
-## Credit
+## Credits
 -"Royalty Free" images obtained from Pixabay under their free content license summary: https://pixabay.com/service/license-summary/
+
