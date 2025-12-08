@@ -104,28 +104,6 @@ button[type=submit]:active {
   transform: translateY(0);
 }
 
-/* Error messages */
-#error-messages {
-  margin-top: 15px;
-  padding: 12px;
-  background: #ffe6e6;
-  border-left: 4px solid #d31616;
-  border-radius: 6px;
-  font-weight: bold;
-  color: #d31616;
-}
-
-/* Success message */
-#output {
-  margin-top: 15px;
-  padding: 12px;
-  background: #e6f7e6;
-  border-left: 4px solid #018813;
-  border-radius: 6px;
-  font-weight: bold;
-  color: #018813;
-}
-
 /* Mobile settings */
 @media (max-width: 600px) {
   form {
