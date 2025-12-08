@@ -514,11 +514,33 @@ footer {
     text-align: center;
   }
 }
+  /* touch effects for hover items */
+  .link:active {
+    text-decoration: underline;
+    text-shadow: 0 0 5px var(--accent);
+  }
+   .card:active {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .card:active:nth-child(odd) {
+    background: var(--purple);
+  }
+
+  .card:active:nth-child(even) {
+    background: var(--pink);
+  }
+
+  .bio:active {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  }
 
 @media (max-width: 480px) {
   .projects-grid {
     grid-template-columns: 1fr;
-    /* Single column on small phones */
+    /* Single column on phones */
   }
 
   header {
