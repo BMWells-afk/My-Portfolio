@@ -517,6 +517,7 @@ footer {
     gap: 8px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 0;
   }
 
   footer p {
