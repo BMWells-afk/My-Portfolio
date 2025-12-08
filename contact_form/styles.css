@@ -126,7 +126,7 @@ button[type=submit]:active {
   color: #018813;
 }
 
-/* Responsive design */
+/* Mobile settings */
 @media (max-width: 600px) {
   form {
     padding: 20px;
