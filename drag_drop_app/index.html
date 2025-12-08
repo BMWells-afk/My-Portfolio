@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cats vs Dogs — Drag & Drop</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Cats vs Dogs</h1>
+
+    <div class="board">
+      <section id="mixed" class="zone" aria-label="Mixed items">
+        <h2>Pets</h2>
+        <div class="items" id="mixed-items"></div>
+      </section>
+
+      <section id="cats-zone" class="zone dropzone" data-accept="cat" aria-label="Cats">
+        <h2>Cats</h2>
+        <div class="items" id="cats-items"></div>
+      </section>
+
+      <section id="dogs-zone" class="zone dropzone" data-accept="dog" aria-label="Dogs">
+        <h2>Dogs</h2>
+        <div class="items" id="dogs-items"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

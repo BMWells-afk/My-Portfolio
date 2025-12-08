@@ -1,0 +1,62 @@
+/* trying CSS shortcut variables to use */
+:root{
+  --gap:12px;
+  --zone-bg:#e7d4eb;
+  --border:#d6dbe6;
+  --neutral:#f5f7fb;
+  --green:#7dd691;
+  --red:#bd6666;
+}
+/* all elements get a border-box */
+*{box-sizing:border-box}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  margin:20px;
+  background:var(--neutral);
+  color:#111;
+}
+/* title */
+h1{margin:0 0 12px}
+.board{
+  display:flex;
+  gap:var(--gap);
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+.zone{
+  flex:1 1 280px;
+  min-width:240px;
+  background:var(--zone-bg);
+  border-radius:10px;
+  padding:12px;
+}
+.zone h2{margin:0 0 8px 0;font-size:1rem}
+.items{min-height:140px}
+.card{
+  display:flex;
+  gap:2px;
+  align-items:center;
+  padding:8px;
+  margin:8px 0;
+  border-radius:8px;
+  background:#fff;
+  border:1px solid #997e9e;
+  cursor:grab;
+}
+/* style images */
+.card img{
+  width:64px;
+  height:48px;
+  object-fit:cover;
+  border-radius:6px;
+}
+
+/* drag and drop styles */
+.dropzone.correct-hover{ 
+  background: var(--green);
+  border-color: green;
+}
+.dropzone.incorrect-hover{
+   background: var(--red);
+   border-color: red; 
+}

@@ -1,0 +1,35 @@
+.main-content {
+    font-family: 'Arial, sans-serif';
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add-to-cart-btn {
+    background-color: #aed131;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 10;
+}
+
+#add-to-cart-btn:hover {
+    background-color: #8bbf1a;
+    position: relative;
+    z-index: 10;
+}

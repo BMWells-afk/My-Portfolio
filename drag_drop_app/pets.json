@@ -1,0 +1,18 @@
+{
+  "categories": {
+    "cats": [
+      { "id": "c1", "name": "Siamese", "category": "cat", "image_url": "Siamese.jpg" },
+      { "id": "c2", "name": "Maine Coon", "category": "cat", "image_url": "Maine_coon.jpg" },
+      { "id": "c3", "name": "Sphynx", "category": "cat", "image_url": "Sphynx.jpg" },
+      { "id": "c4", "name": "Bengal", "category": "cat", "image_url": "Bengal.jpg" },
+      { "id": "c5", "name": "Persian", "category": "cat", "image_url": "Persian.jpg" }
+    ],
+    "dogs": [
+      { "id": "d1", "name": "Golden Retriever", "category": "dog", "image_url": "/golden_retriever.jpg" },
+      { "id": "d2", "name": "German Shepherd", "category": "dog", "image_url": "german_shepherd.jpg" },
+      { "id": "d3", "name": "Pug", "category": "dog", "image_url": "pug.jpg" },
+      { "id": "d4", "name": "Shiba Inu", "category": "dog", "image_url": "/shiba_inu.jpg" },
+      { "id": "d5", "name": "Poodle", "category": "dog", "image_url": "poodle.jpg" }
+    ]
+  }
+}
