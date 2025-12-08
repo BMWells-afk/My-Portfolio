@@ -10,6 +10,7 @@ A porfolio page showcasing my projects
 - There is a fun portfolio page that uses 
 - I added a few psuedo-classes to change the hover of the links and the cards
 - A sidebar showcases my avatar profile photo with a short bio and a Contact Me button that has a nice hover and click effect
+- The Contact Me button opens a page with a form that requires an email and description and provides a success alert once submitted
 - The sidbar also includes three working icons for socials that changes color and size on hover. The icons pull from font-awesome 
 - I added mobile responsiveness to the portfolio site and within the contact form and cat_generator apps
 - Footer displays a copyright symbol with dynamic current year and my name
