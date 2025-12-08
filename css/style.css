@@ -81,7 +81,7 @@ body:before {
 h1 {
   display: inline-block;
   color: white;
-  font-size: 6em;
+  font-size: 7em;
   text-shadow: .03em .03em 0 hsla(230, 40%, 50%, 1);
 }
 
