@@ -1,35 +1,40 @@
+/* Mobile-first approach - default styles are for mobile */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  background: #ffe4f0; /* light pink background */
-  color: #4b0082;      /* purple text */
+  background: #ffe4f0;
+  color: #4b0082;
   padding: 20px;
 }
 
 h1 {
   margin-bottom: 20px;
-  font-size: 2em;
+  font-size: 1.5em; /* Start with mobile size */
 }
 
 img {
-  width: 30%;
+  width: 90%; /* Mobile default */
   max-width: 400px;
-  height: 500px;
+  height: auto; /* Mobile default */
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 button {
-  margin-top: 15px;
-  padding: 10px 20px;
+  width: 90%; /* Mobile default */
+  max-width: 300px;
+  padding: 14px 0;
+  margin: 20px auto;
   background: #ff80d0;
   border: none;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
+  font-size: 18px;
+  display: block;
 }
 
 button:hover {
@@ -44,24 +49,20 @@ button:hover {
   font-weight: bold;
 }
 
-/* mobile settings */
-@media (max-width: 768px) {
+/* Desktop styles - only apply on larger screens */
+@media (min-width: 769px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   img {
-    max-width: 90%; /* Larger on mobile */
-    width: 90%;
-    height: auto;
+    width: 30%;
+    height: 500px;
   }
 
   button {
-    width: 90%;
-    max-width: 300px;
-    font-size: 18px;
-    padding: 14px 0;
-    margin: 20px auto;
-    display: block;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 16px;
   }
 }
